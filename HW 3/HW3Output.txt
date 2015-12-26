@@ -1,0 +1,21 @@
+
+<><><>PROBLEM 1<><><>
+	Alpha is: 3.60335
+	MSE is: 2.6178318925
+
+
+<><><>Problem 2<><><>
+	Item bias of I102776733 = 0.112019551218
+	User bias of U566105319 = -1.05876312691
+	MSE of predictor against the test data: 1.60057067306
+0.75
+
+<><><>Problem 3<><><>
+	Jaccard similarity between the users 'U229891973' and 'U622491081' is: 0.75
+	Users with the highest Jaccard similarity to 'U622491081' are: ['U359587607', 'U687939146', 'U096951499', 'U296575297', 'U387971231', 'U300899166']
+
+<><><>Problem 4<><><>
+	Fitted value of alpha is: 0.533185849504
+	MSE: 74.4869061806
+	Absolute error: 18362.4004226
+	Fitted parameters are ([a, Bias1, Bias2]): [  3.45247397e-01   2.69473721e-04   4.40200036e-02]

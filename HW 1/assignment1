@@ -1,0 +1,76 @@
+###########################Week 1###############################
+import numpy
+import urllib
+import scipy.optimize
+import random
+
+def parseData(fname):
+  for l in urllib.urlopen(fname):
+    yield eval(l)
+
+print "Reading data..."
+data = list(parseData("http://jmcauley.ucsd.edu/cse190/data/beer/beer_50000.json"))
+print "done"
+
+##########################Problem 1###############################
+print "Week 1 problems"
+data2 = [d['beer/beerId'] for d in data]
+print "Problem 1.1.1 = " + str(len(set(data2)))
+
+data3 = [d['user/profileName'] for d in data]
+print "Problem 1.1.2 = " + str(len(set(data3)))
+
+data4 = [d['review/appearance'] for d in data]
+print "Problem 1.1.3 (appearance) = " + str(numpy.mean(data4))
+
+data5 = [d['review/palate'] for d in data]
+print "Problem 1.1.3 (palate) = " + str(numpy.mean(data5))
+
+data6 = [d['review/overall'] for d in data]
+print "Problem 1.1.3 (overall) = " + str(numpy.mean(data6))
+
+data7 = [d['review/aroma'] for d in data]
+print "Problem 1.1.3 (aroma) = " + str(numpy.mean(data7))
+
+data8 = [d['review/taste'] for d in data]
+print "Problem 1.1.3 (taste) = " + str(numpy.mean(data8))
+
+data9 = [d['beer/ABV'] for d in data]
+print "Problem 1.1.4 = " + str(numpy.mean(data9))
+
+print ""
+##########################Problem 2###############################
+data10 = [d['review/taste'] for d in data]
+print "Problem 1.2.1 = " + str(numpy.var(data10))
+
+data11 = [d['review/taste'] for d in data]
+print "Problem 1.2.2 = " + str(numpy.var(data11))
+
+
+
+
+##########################WEEK 2##################################
+import numpy
+import urllib
+import scipy.optimize
+import random
+from sklearn import svm
+
+def parseData(fname):
+  for l in urllib.urlopen(fname):
+    yield eval(l)
+
+print "Reading data..."
+data = list(parseData("http://jmcauley.ucsd.edu/cse255/data/amazon/book_descriptions_50000.json"))
+print "done"
+
+##########################Problem 1###############################
+prior = ["Romance" in b['categories'] for b in data]
+prior = sum(prior) * 1.0 / len(prior)
+print "p(category = romance) = " + prior
+
+p1 = ['love' in b['description'] for b in data if "Romance" in b['categories']]
+p1 = sum(p1) * 1.0 / len(p1)
+print "p(mentions 'love' | category = romance) = " + p1
+
+##########################Problem 2###############################

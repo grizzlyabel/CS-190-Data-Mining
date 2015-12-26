@@ -1,0 +1,35 @@
+Reading data for week 1...
+done
+
+Week 1 problems
+	Week 1: Problem 1.1.1 = 1923
+	Week 1: Problem 1.1.2 = 8376
+	Week 1: Problem 1.1.3 (appearance) = 3.8984
+	Week 1: Problem 1.1.3 (palate) = 3.85267
+	Week 1: Problem 1.1.3 (overall) = 3.88871
+	Week 1: Problem 1.1.3 (aroma) = 3.87152
+	Week 1: Problem 1.1.3 (taste) = 3.92225
+	Week 1: Problem 1.1.4 = 7.400287
+
+	Week 1: Problem 1.2.1 = 0.5135699375
+	Week 1: Problem 1.2.2 = 0.5135699375
+
+	Week 1: Problem 1.3: Theta[0] = 3.11521115232 Theta[1] = 0.109055074172
+	Initially, ABV will be rated 3.1152... and will increase by .109055...
+	as the ABV rises each time.
+
+	Week1: Problem 1.4: MSE (training): 0.48398310511486436
+	Week1: Problem 1.4: MSE (test): 0.69671625497073886
+
+Reading data for week 2...
+done
+
+Week 2 problems
+	Week 2 Problem 1.a: p(category = romance) = 0.03198
+	Week 2 Problem 1.b: p(mentions 'love' | category = romance) = 0.487804878049
+
+	Week 2 Problem 2 = 0.878489272603
+	String 'beaut' may be more effective than the others since we'd find more 
+	instances of a different form of the word being used.
+
+	Week2 Problem 3 = TPR, TNR, FPR, FNR

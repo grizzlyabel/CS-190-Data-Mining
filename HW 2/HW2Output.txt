@@ -1,0 +1,35 @@
+Reading data...
+done
+	<><>Task 1.1<><>
+	The mean of the 5-Dimensional array is: [ 3.88871  3.92225  3.87152  3.8984   3.85267]
+
+	<><>Task 1.2<><>
+	The 'Reconstruction Error' is: 113183.433705
+
+	<><>Task 1.3<><>
+	Centroids of two clusters after convergence: 
+		[ 4.19821338  4.25983918  4.15755422  4.0951781   4.1408347 ]
+		[ 3.14419016  3.11016891  3.18345593  3.42504427  3.159481  ]
+
+	<><>Task 1.5<><>
+	36534 points are closest to c1.
+	13466 points are closest to c2.
+
+	<><>Task 1.6<><>
+	Reconstruction error is: 63420.4265302
+
+	<><>Task 2.1<><>
+	Number of nodes: 61
+	Number of edges: 540
+
+	<><>Task 2.2<><>
+	There are 3 connected components.
+	There are 40 nodes in the largest connected component.
+
+	<><>Task 2.3<><>
+	There are 5 communities.
+	Community0 nodes = frozenset([769, 747, 708, 774, 840, 713, 719, 856, 772, 805, 800, 869, 745, 810, 811, 880, 753, 819, 823, 697, 890, 828, 830, 703])
+	Community1 nodes = frozenset([870, 871, 879, 881, 858, 895])
+	Community2 nodes = frozenset([804, 876, 878, 888, 753, 882, 886, 729, 856, 889, 861, 863])
+	Community3 nodes = frozenset([867, 872, 873, 874, 877, 776, 885, 887])
+	Community4 nodes = frozenset([857, 868, 862, 865])
